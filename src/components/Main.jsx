@@ -8,7 +8,7 @@ export default () => {
 			<body>
 				<nav>
 					<ul class="tabs">
-						<li><Link to="/">I'm rutko</Link></li>
+						<li><Link to="/">Top</Link></li>
 						<li><Link to="/products">Products</Link></li>
 						<li><Link to="https://twitter.com/rutko_">Twitter</Link></li>
 						<li><Link to="https://github.com/rutko">Github</Link></li>
