@@ -4,11 +4,11 @@ import Main from "./main"
 import Footer from "./footer"
 import "../styles/global.scss"
 
-export default function Layout() {
+export default function Layout({ children }) {
   return (
 		<>
 			<Header />
-			<Main /> 
+			<Main children= { children } />
 			<Footer />
 		</>
 	)

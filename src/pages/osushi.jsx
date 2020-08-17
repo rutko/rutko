@@ -1,12 +1,20 @@
 import React from "react"
 import Image from "../components/image"
-import Main from "../components/main"
+import Layout from "../components/layout"
 
 export default function Home() {
   return (
     <>
-    <Main />
-    <Image filename = "osushi1.jpg" alt="osushi"/> 
+    <Layout>
+      <pictures>
+        <Image filename = "osushi1.jpg" alt="osushi"/>
+        <Image filename = "osushi2.jpg" alt="osushi"/>
+      </pictures>
+      <pictures>
+        <Image filename = "osushi3.jpg" alt="osushi"/>
+        <Image filename = "osushi4.jpg" alt="osushi"/>
+      </pictures>
+    </Layout>
     </>
   );
 }
